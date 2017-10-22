@@ -1,0 +1,3 @@
+
+Function count() Export
+EndFunction
