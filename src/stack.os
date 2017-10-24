@@ -9,9 +9,14 @@ Function push(value) Export
 	mStackContainer.add(value);
 EndFunction
 
-Procedure pop() Export
+Function pop() Export
+	Var topValue;
+
+	topValue = mStackContainer.get(mStackContainer.UBound());
 	mStackContainer.delete(mStackContainer.UBound());
-EndProcedure
+
+	return topValue;
+EndFunction
 
 Procedure Init()
 	mStackContainer = New Array;
