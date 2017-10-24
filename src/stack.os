@@ -10,6 +10,7 @@ Function push(value) Export
 EndFunction
 
 Procedure pop() Export
+	mStackContainer.delete(mStackContainer.UBound());
 EndProcedure
 
 Procedure Init()
