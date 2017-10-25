@@ -19,6 +19,9 @@ Function pop() Export
 	return topValue;
 EndFunction
 
+Function peek() Export
+EndFunction
+
 Procedure Init()
 	mStackContainer = New Array;
 EndProcedure
