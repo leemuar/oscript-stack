@@ -20,6 +20,7 @@ Function pop() Export
 EndFunction
 
 Function peek() Export
+	return mStackContainer.get(mstackContainer.UBound());
 EndFunction
 
 Procedure Init()
