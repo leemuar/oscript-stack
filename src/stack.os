@@ -12,7 +12,10 @@ EndFunction
 Function pop() Export
 	Var topValue;
 
-	// TODO generate exception explicitly on stack underflow, do not rely on get() behavior of empty Array
+	If 0 = mStackContainer.count() Then
+		Raise "stack underflow: attempt to get element out of empty stack object";
+	EndIf;
+
 	topValue = mStackContainer.get(mStackContainer.UBound());
 	mStackContainer.delete(mStackContainer.UBound());
 
