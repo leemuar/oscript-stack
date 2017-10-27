@@ -12,10 +12,8 @@ EndFunction
 Function pop() Export
 	Var topValue;
 
-	If this().empty() Then
-		Raise "stack underflow: attempt to get element out of empty stack object";
-	EndIf;
-
+	// we want to check for underflow and throw exception here
+	// peek() does this so we utilize it to avoid double checking
 	topValue = this().peek();
 	mStackContainer.delete(mStackContainer.UBound());
 
