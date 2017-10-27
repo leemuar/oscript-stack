@@ -31,6 +31,7 @@ Function peek() Export
 EndFunction
 
 Function empty() Export
+	Return True;
 EndFunction
 
 Procedure Init()
