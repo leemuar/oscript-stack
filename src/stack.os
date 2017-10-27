@@ -12,7 +12,7 @@ EndFunction
 Function pop() Export
 	Var topValue;
 
-	If 0 = mStackContainer.count() Then
+	If this().empty() Then
 		Raise "stack underflow: attempt to get element out of empty stack object";
 	EndIf;
 
