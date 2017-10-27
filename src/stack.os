@@ -31,7 +31,13 @@ Function peek() Export
 EndFunction
 
 Function empty() Export
-	Return True;
+	Return 0 = This().count();
+EndFunction
+
+Function This()
+	// early versions of intepreter didn't have ThisObject variable,
+	// only it's russian synonym - ЭтотОбъект
+	return ЭтотОбъект;
 EndFunction
 
 Procedure Init()
