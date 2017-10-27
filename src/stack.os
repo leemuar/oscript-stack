@@ -26,8 +26,11 @@ Function peek() Export
 	If 0 = mStackContainer.count() Then
 		Raise "stack underflow: attempt to get element out of empty stack object";
 	Endif;
-	
+
 	return mStackContainer.get(mstackContainer.UBound());
+EndFunction
+
+Function empty() Export
 EndFunction
 
 Procedure Init()
