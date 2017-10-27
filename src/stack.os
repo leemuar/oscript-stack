@@ -40,9 +40,9 @@ Function this()
 	return ЭтотОбъект;
 EndFunction
 
-Procedure Init()
+Procedure init()
 	mStackContainer = New Array;
 EndProcedure
 
 
-Init();
+init();
