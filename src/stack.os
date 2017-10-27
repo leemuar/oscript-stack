@@ -13,7 +13,7 @@ Function pop() Export
 	Var topValue;
 
 	// we want to check for underflow and throw exception here
-	// peek() does this so we utilize it to avoid double checking
+	// peek() does this so we utilize it to reuse code
 	topValue = this().peek();
 	mStackContainer.delete(mStackContainer.UBound());
 
