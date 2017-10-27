@@ -16,7 +16,7 @@ Function pop() Export
 		Raise "stack underflow: attempt to get element out of empty stack object";
 	EndIf;
 
-	topValue = mStackContainer.get(mStackContainer.UBound());
+	topValue = this().peek();
 	mStackContainer.delete(mStackContainer.UBound());
 
 	return topValue;
