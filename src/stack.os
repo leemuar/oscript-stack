@@ -1,14 +1,30 @@
 
 Var mStackContainer;
 
+// Возвращает количество элементов, находящихся в стеке.
+//
+// Возвращаемое значение:
+//  Число - количество элементов в стеке.
+//
 Function count() Export
 	return mStackContainer.count();
 EndFunction
 
+// Добавляет элемент на вершину стека.
+//
+// Параметры:
+//  value - Произвольный - значение, добавляемое на вершину стека.
+//
 Function push(value) Export
 	mStackContainer.add(value);
 EndFunction
 
+// Извлекает элемент с вершины стека и удаляет его из стека.
+// Если стек пуст, вызывает исключение с текстом "stack underflow".
+//
+// Возвращаемое значение:
+//  Произвольный - значение, находившееся на вершине стека.
+//
 Function pop() Export
 	Var topValue;
 
@@ -20,6 +36,12 @@ Function pop() Export
 	return topValue;
 EndFunction
 
+// Возвращает элемент с вершины стека, не удаляя его из стека.
+// Если стек пуст, вызывает исключение с текстом "stack underflow".
+//
+// Возвращаемое значение:
+//  Произвольный - значение, находящееся на вершине стека.
+//
 Function peek() Export
 	If this().empty() Then
 		Raise "stack underflow: attempt to get element out of empty stack object";
@@ -28,10 +50,17 @@ Function peek() Export
 	return mStackContainer.get(mStackContainer.UBound());
 EndFunction
 
+// Проверяет, пуст ли стек.
+//
+// Возвращаемое значение:
+//  Булево - Истина, если стек не содержит элементов; иначе Ложь.
+//
 Function empty() Export
 	Return 0 = this().count();
 EndFunction
 
+// Удаляет все элементы из стека.
+//
 Procedure clear() Export
 	mStackContainer.Clear();
 EndProcedure
