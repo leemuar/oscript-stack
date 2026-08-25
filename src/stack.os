@@ -25,12 +25,16 @@ Function peek() Export
 		Raise "stack underflow: attempt to get element out of empty stack object";
 	Endif;
 
-	return mStackContainer.get(mstackContainer.UBound());
+	return mStackContainer.get(mStackContainer.UBound());
 EndFunction
 
 Function empty() Export
 	Return 0 = this().count();
 EndFunction
+
+Procedure clear() Export
+	mStackContainer.Clear();
+EndProcedure
 
 Function this()
 	// early versions of intepreter didn't have ThisObject variable,
