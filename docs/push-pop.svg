@@ -4,7 +4,7 @@
 	<text x="360" y="34" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2328">Стек: push() / pop()</text>
 
 	<!-- ==================== ROW 1: push ==================== -->
-	<g transform="translate(0,60)">
+	<g transform="translate(113,60)">
 
 		<text x="102" y="52" text-anchor="middle" font-size="12" fill="#57606a">До</text>
 		<text x="392" y="52" text-anchor="middle" font-size="12" fill="#57606a">После</text>
@@ -33,7 +33,7 @@
 	</g>
 
 	<!-- ==================== ROW 2: pop ==================== -->
-	<g transform="translate(0,320)">
+	<g transform="translate(113,320)">
 
 		<text x="102" y="12" text-anchor="middle" font-size="12" fill="#57606a">До</text>
 		<text x="392" y="12" text-anchor="middle" font-size="12" fill="#57606a">После</text>
