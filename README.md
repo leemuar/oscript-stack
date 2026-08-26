@@ -2,7 +2,7 @@
 
 Реализация структуры данных **Стек** (LIFO — Last In, First Out) для [OneScript](https://oscript.io/).
 
-![Диаграмма push()/pop()](docs/push-pop.svg)
+![Анимация добавления элементов в стек](docs/push-animation.svg)
 
 ## Возможности
 
