@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+
+	<rect x="0" y="0" width="640" height="420" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+
+	<text x="320" y="32" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2328">Стек: push() — заполнение</text>
+
+	<!-- ==================== код ==================== -->
+	<rect x="48" y="90" width="260" height="190" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+	<text x="66" y="122" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#57606a">Стек = Новый Стек;</text>
+
+	<!-- строка 1 -->
+	<rect x="60" y="140" width="236" height="30" rx="5" fill="#ddf4ff" opacity="0">
+		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.5s" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+	</rect>
+	<text x="72" y="160" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" fill="#1f2328">push(1)</text>
+
+	<!-- строка 2 -->
+	<rect x="60" y="180" width="236" height="30" rx="5" fill="#ddf4ff" opacity="0">
+		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.5s" begin="2.5s;11.5s;20.5s;29.5s;38.5s;47.5s;56.5s;65.5s;74.5s;83.5s;92.5s;101.5s;110.5s;119.5s;128.5s;137.5s;146.5s;155.5s;164.5s;173.5s;182.5s;191.5s;200.5s;209.5s;218.5s;227.5s;236.5s;245.5s;254.5s;263.5s;272.5s;281.5s;290.5s;299.5s;308.5s;317.5s;326.5s;335.5s;344.5s;353.5s;362.5s;371.5s;380.5s;389.5s;398.5s;407.5s;416.5s;425.5s;434.5s;443.5s;452.5s;461.5s;470.5s;479.5s;488.5s;497.5s;506.5s;515.5s;524.5s;533.5s" fill="freeze"/>
+	</rect>
+	<text x="72" y="200" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" fill="#1f2328">push(2)</text>
+
+	<!-- строка 3 -->
+	<rect x="60" y="220" width="236" height="30" rx="5" fill="#ddf4ff" opacity="0">
+		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.5s" begin="5s;14s;23s;32s;41s;50s;59s;68s;77s;86s;95s;104s;113s;122s;131s;140s;149s;158s;167s;176s;185s;194s;203s;212s;221s;230s;239s;248s;257s;266s;275s;284s;293s;302s;311s;320s;329s;338s;347s;356s;365s;374s;383s;392s;401s;410s;419s;428s;437s;446s;455s;464s;473s;482s;491s;500s;509s;518s;527s;536s" fill="freeze"/>
+	</rect>
+	<text x="72" y="240" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" fill="#1f2328">push(3)</text>
+
+	<!-- ==================== стек (жёлоб) ==================== -->
+	<line x1="429" y1="140" x2="429" y2="300" stroke="#57606a" stroke-width="2"/>
+	<line x1="519" y1="140" x2="519" y2="300" stroke="#57606a" stroke-width="2"/>
+	<line x1="424" y1="300" x2="524" y2="300" stroke="#57606a" stroke-width="2"/>
+
+	<!-- элемент 1: слот, падает с высоты 215 -->
+	<g opacity="0">
+		<set attributeName="opacity" to="0" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+		<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.4s;9.4s;18.4s;27.4s;36.4s;45.4s;54.4s;63.4s;72.4s;81.4s;90.4s;99.4s;108.4s;117.4s;126.4s;135.4s;144.4s;153.4s;162.4s;171.4s;180.4s;189.4s;198.4s;207.4s;216.4s;225.4s;234.4s;243.4s;252.4s;261.4s;270.4s;279.4s;288.4s;297.4s;306.4s;315.4s;324.4s;333.4s;342.4s;351.4s;360.4s;369.4s;378.4s;387.4s;396.4s;405.4s;414.4s;423.4s;432.4s;441.4s;450.4s;459.4s;468.4s;477.4s;486.4s;495.4s;504.4s;513.4s;522.4s;531.4s" fill="freeze"/>
+		<animateTransform attributeName="transform" type="translate" from="0,-215" to="0,0" dur="0.8s" begin="0.4s;9.4s;18.4s;27.4s;36.4s;45.4s;54.4s;63.4s;72.4s;81.4s;90.4s;99.4s;108.4s;117.4s;126.4s;135.4s;144.4s;153.4s;162.4s;171.4s;180.4s;189.4s;198.4s;207.4s;216.4s;225.4s;234.4s;243.4s;252.4s;261.4s;270.4s;279.4s;288.4s;297.4s;306.4s;315.4s;324.4s;333.4s;342.4s;351.4s;360.4s;369.4s;378.4s;387.4s;396.4s;405.4s;414.4s;423.4s;432.4s;441.4s;450.4s;459.4s;468.4s;477.4s;486.4s;495.4s;504.4s;513.4s;522.4s;531.4s" calcMode="spline" keySplines="0.2 0.8 0.2 1" fill="freeze"/>
+		<rect x="439" y="255" width="70" height="45" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.5">
+			<set attributeName="fill" to="#dafbe1" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<set attributeName="stroke" to="#1a7f37" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<animate attributeName="fill" from="#dafbe1" to="#ffffff" dur="0.4s" begin="1.2s;10.2s;19.2s;28.2s;37.2s;46.2s;55.2s;64.2s;73.2s;82.2s;91.2s;100.2s;109.2s;118.2s;127.2s;136.2s;145.2s;154.2s;163.2s;172.2s;181.2s;190.2s;199.2s;208.2s;217.2s;226.2s;235.2s;244.2s;253.2s;262.2s;271.2s;280.2s;289.2s;298.2s;307.2s;316.2s;325.2s;334.2s;343.2s;352.2s;361.2s;370.2s;379.2s;388.2s;397.2s;406.2s;415.2s;424.2s;433.2s;442.2s;451.2s;460.2s;469.2s;478.2s;487.2s;496.2s;505.2s;514.2s;523.2s;532.2s" fill="freeze"/>
+			<animate attributeName="stroke" from="#1a7f37" to="#57606a" dur="0.4s" begin="1.2s;10.2s;19.2s;28.2s;37.2s;46.2s;55.2s;64.2s;73.2s;82.2s;91.2s;100.2s;109.2s;118.2s;127.2s;136.2s;145.2s;154.2s;163.2s;172.2s;181.2s;190.2s;199.2s;208.2s;217.2s;226.2s;235.2s;244.2s;253.2s;262.2s;271.2s;280.2s;289.2s;298.2s;307.2s;316.2s;325.2s;334.2s;343.2s;352.2s;361.2s;370.2s;379.2s;388.2s;397.2s;406.2s;415.2s;424.2s;433.2s;442.2s;451.2s;460.2s;469.2s;478.2s;487.2s;496.2s;505.2s;514.2s;523.2s;532.2s" fill="freeze"/>
+		</rect>
+		<text x="474" y="282" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#1f2328">1</text>
+	</g>
+
+	<!-- элемент 2: слот, падает с высоты 170 -->
+	<g opacity="0">
+		<set attributeName="opacity" to="0" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+		<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="2.9s;11.9s;20.9s;29.9s;38.9s;47.9s;56.9s;65.9s;74.9s;83.9s;92.9s;101.9s;110.9s;119.9s;128.9s;137.9s;146.9s;155.9s;164.9s;173.9s;182.9s;191.9s;200.9s;209.9s;218.9s;227.9s;236.9s;245.9s;254.9s;263.9s;272.9s;281.9s;290.9s;299.9s;308.9s;317.9s;326.9s;335.9s;344.9s;353.9s;362.9s;371.9s;380.9s;389.9s;398.9s;407.9s;416.9s;425.9s;434.9s;443.9s;452.9s;461.9s;470.9s;479.9s;488.9s;497.9s;506.9s;515.9s;524.9s;533.9s" fill="freeze"/>
+		<animateTransform attributeName="transform" type="translate" from="0,-170" to="0,0" dur="0.8s" begin="2.9s;11.9s;20.9s;29.9s;38.9s;47.9s;56.9s;65.9s;74.9s;83.9s;92.9s;101.9s;110.9s;119.9s;128.9s;137.9s;146.9s;155.9s;164.9s;173.9s;182.9s;191.9s;200.9s;209.9s;218.9s;227.9s;236.9s;245.9s;254.9s;263.9s;272.9s;281.9s;290.9s;299.9s;308.9s;317.9s;326.9s;335.9s;344.9s;353.9s;362.9s;371.9s;380.9s;389.9s;398.9s;407.9s;416.9s;425.9s;434.9s;443.9s;452.9s;461.9s;470.9s;479.9s;488.9s;497.9s;506.9s;515.9s;524.9s;533.9s" calcMode="spline" keySplines="0.2 0.8 0.2 1" fill="freeze"/>
+		<rect x="439" y="210" width="70" height="45" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.5">
+			<set attributeName="fill" to="#dafbe1" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<set attributeName="stroke" to="#1a7f37" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<animate attributeName="fill" from="#dafbe1" to="#ffffff" dur="0.4s" begin="3.7s;12.7s;21.7s;30.7s;39.7s;48.7s;57.7s;66.7s;75.7s;84.7s;93.7s;102.7s;111.7s;120.7s;129.7s;138.7s;147.7s;156.7s;165.7s;174.7s;183.7s;192.7s;201.7s;210.7s;219.7s;228.7s;237.7s;246.7s;255.7s;264.7s;273.7s;282.7s;291.7s;300.7s;309.7s;318.7s;327.7s;336.7s;345.7s;354.7s;363.7s;372.7s;381.7s;390.7s;399.7s;408.7s;417.7s;426.7s;435.7s;444.7s;453.7s;462.7s;471.7s;480.7s;489.7s;498.7s;507.7s;516.7s;525.7s;534.7s" fill="freeze"/>
+			<animate attributeName="stroke" from="#1a7f37" to="#57606a" dur="0.4s" begin="3.7s;12.7s;21.7s;30.7s;39.7s;48.7s;57.7s;66.7s;75.7s;84.7s;93.7s;102.7s;111.7s;120.7s;129.7s;138.7s;147.7s;156.7s;165.7s;174.7s;183.7s;192.7s;201.7s;210.7s;219.7s;228.7s;237.7s;246.7s;255.7s;264.7s;273.7s;282.7s;291.7s;300.7s;309.7s;318.7s;327.7s;336.7s;345.7s;354.7s;363.7s;372.7s;381.7s;390.7s;399.7s;408.7s;417.7s;426.7s;435.7s;444.7s;453.7s;462.7s;471.7s;480.7s;489.7s;498.7s;507.7s;516.7s;525.7s;534.7s" fill="freeze"/>
+		</rect>
+		<text x="474" y="237" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#1f2328">2</text>
+	</g>
+
+	<!-- элемент 3: слот, падает с высоты 125 -->
+	<g opacity="0">
+		<set attributeName="opacity" to="0" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+		<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="5.4s;14.4s;23.4s;32.4s;41.4s;50.4s;59.4s;68.4s;77.4s;86.4s;95.4s;104.4s;113.4s;122.4s;131.4s;140.4s;149.4s;158.4s;167.4s;176.4s;185.4s;194.4s;203.4s;212.4s;221.4s;230.4s;239.4s;248.4s;257.4s;266.4s;275.4s;284.4s;293.4s;302.4s;311.4s;320.4s;329.4s;338.4s;347.4s;356.4s;365.4s;374.4s;383.4s;392.4s;401.4s;410.4s;419.4s;428.4s;437.4s;446.4s;455.4s;464.4s;473.4s;482.4s;491.4s;500.4s;509.4s;518.4s;527.4s;536.4s" fill="freeze"/>
+		<animateTransform attributeName="transform" type="translate" from="0,-125" to="0,0" dur="0.8s" begin="5.4s;14.4s;23.4s;32.4s;41.4s;50.4s;59.4s;68.4s;77.4s;86.4s;95.4s;104.4s;113.4s;122.4s;131.4s;140.4s;149.4s;158.4s;167.4s;176.4s;185.4s;194.4s;203.4s;212.4s;221.4s;230.4s;239.4s;248.4s;257.4s;266.4s;275.4s;284.4s;293.4s;302.4s;311.4s;320.4s;329.4s;338.4s;347.4s;356.4s;365.4s;374.4s;383.4s;392.4s;401.4s;410.4s;419.4s;428.4s;437.4s;446.4s;455.4s;464.4s;473.4s;482.4s;491.4s;500.4s;509.4s;518.4s;527.4s;536.4s" calcMode="spline" keySplines="0.2 0.8 0.2 1" fill="freeze"/>
+		<rect x="439" y="165" width="70" height="45" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.5">
+			<set attributeName="fill" to="#dafbe1" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<set attributeName="stroke" to="#1a7f37" begin="0s;9s;18s;27s;36s;45s;54s;63s;72s;81s;90s;99s;108s;117s;126s;135s;144s;153s;162s;171s;180s;189s;198s;207s;216s;225s;234s;243s;252s;261s;270s;279s;288s;297s;306s;315s;324s;333s;342s;351s;360s;369s;378s;387s;396s;405s;414s;423s;432s;441s;450s;459s;468s;477s;486s;495s;504s;513s;522s;531s" fill="freeze"/>
+			<animate attributeName="fill" from="#dafbe1" to="#ffffff" dur="0.4s" begin="6.2s;15.2s;24.2s;33.2s;42.2s;51.2s;60.2s;69.2s;78.2s;87.2s;96.2s;105.2s;114.2s;123.2s;132.2s;141.2s;150.2s;159.2s;168.2s;177.2s;186.2s;195.2s;204.2s;213.2s;222.2s;231.2s;240.2s;249.2s;258.2s;267.2s;276.2s;285.2s;294.2s;303.2s;312.2s;321.2s;330.2s;339.2s;348.2s;357.2s;366.2s;375.2s;384.2s;393.2s;402.2s;411.2s;420.2s;429.2s;438.2s;447.2s;456.2s;465.2s;474.2s;483.2s;492.2s;501.2s;510.2s;519.2s;528.2s;537.2s" fill="freeze"/>
+			<animate attributeName="stroke" from="#1a7f37" to="#57606a" dur="0.4s" begin="6.2s;15.2s;24.2s;33.2s;42.2s;51.2s;60.2s;69.2s;78.2s;87.2s;96.2s;105.2s;114.2s;123.2s;132.2s;141.2s;150.2s;159.2s;168.2s;177.2s;186.2s;195.2s;204.2s;213.2s;222.2s;231.2s;240.2s;249.2s;258.2s;267.2s;276.2s;285.2s;294.2s;303.2s;312.2s;321.2s;330.2s;339.2s;348.2s;357.2s;366.2s;375.2s;384.2s;393.2s;402.2s;411.2s;420.2s;429.2s;438.2s;447.2s;456.2s;465.2s;474.2s;483.2s;492.2s;501.2s;510.2s;519.2s;528.2s;537.2s" fill="freeze"/>
+		</rect>
+		<text x="474" y="192" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#1f2328">3</text>
+	</g>
+
+</svg>
