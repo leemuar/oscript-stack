@@ -37,7 +37,7 @@ Function pop() Export
 
 	// we want to check for underflow and throw exception here
 	// peek() does this so we utilize it to reuse code
-	topValue = this().peek();
+	topValue = peek();
 	_StackContainer.delete( _StackContainer.UBound() );
 
 	return topValue;
@@ -53,7 +53,7 @@ EndFunction
 //
 Function peek() Export
 
-	If this().empty() Then
+	If empty() Then
 		Raise "stack underflow: attempt to get element out of empty stack object";
 	Endif;
 
@@ -69,7 +69,7 @@ EndFunction
 //
 Function empty() Export
 
-	Return 0 = this().count();
+	Return 0 = count();
 
 EndFunction
 
@@ -96,15 +96,6 @@ Procedure clear() Export
 	_StackContainer.Clear();
 
 EndProcedure
-
-
-Function this()
-
-	// early versions of intepreter didn't have ThisObject variable,
-	// only it's russian synonym - ЭтотОбъект
-	return ЭтотОбъект;
-
-EndFunction
 
 
 Procedure init()
