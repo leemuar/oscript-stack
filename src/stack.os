@@ -59,6 +59,18 @@ Function empty() Export
 	Return 0 = this().count();
 EndFunction
 
+// Проверяет наличие указанного значения среди элементов стека.
+//
+// Параметры:
+//  value - Произвольный - значение, наличие которого проверяется.
+//
+// Возвращаемое значение:
+//  Булево - Истина, если значение содержится в стеке; иначе Ложь.
+//
+Function contains(value) Export
+	Return mStackContainer.Find(value) <> Undefined;
+EndFunction
+
 // Удаляет все элементы из стека.
 //
 Procedure clear() Export
