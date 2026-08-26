@@ -2,7 +2,7 @@
 
 	<rect x="0" y="0" width="640" height="420" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
 
-	<text x="320" y="32" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2328">Стек, добавление</text>
+	<text x="320" y="34" text-anchor="middle" font-size="19" font-weight="600" fill="#1f2328">Стек, добавление</text>
 
 	<!-- ==================== код ==================== -->
 	<rect x="97" y="105" width="260" height="185" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
@@ -78,22 +78,22 @@
 
 
 	<!-- ==================== подпись действия ==================== -->
-	<text x="320" y="350" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" opacity="0">
+	<text x="320" y="355" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#1f2328" opacity="0">
 		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.0s" begin="0s;11s;22s;33s;44s;55s;66s;77s;88s;99s;110s;121s;132s;143s;154s;165s;176s;187s;198s;209s;220s;231s;242s;253s;264s;275s;286s;297s;308s;319s;330s;341s;352s;363s;374s;385s;396s;407s;418s;429s;440s;451s;462s;473s;484s;495s;506s;517s;528s;539s;550s;561s;572s;583s;594s" fill="freeze"/>
 		Создали пустой объект Стек
 	</text>
 
-	<text x="320" y="350" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" opacity="0">
+	<text x="320" y="355" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#1f2328" opacity="0">
 		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" begin="2s;13s;24s;35s;46s;57s;68s;79s;90s;101s;112s;123s;134s;145s;156s;167s;178s;189s;200s;211s;222s;233s;244s;255s;266s;277s;288s;299s;310s;321s;332s;343s;354s;365s;376s;387s;398s;409s;420s;431s;442s;453s;464s;475s;486s;497s;508s;519s;530s;541s;552s;563s;574s;585s;596s" fill="freeze"/>
 		Добавили значение 1
 	</text>
 
-	<text x="320" y="350" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" opacity="0">
+	<text x="320" y="355" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#1f2328" opacity="0">
 		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" begin="4.5s;15.5s;26.5s;37.5s;48.5s;59.5s;70.5s;81.5s;92.5s;103.5s;114.5s;125.5s;136.5s;147.5s;158.5s;169.5s;180.5s;191.5s;202.5s;213.5s;224.5s;235.5s;246.5s;257.5s;268.5s;279.5s;290.5s;301.5s;312.5s;323.5s;334.5s;345.5s;356.5s;367.5s;378.5s;389.5s;400.5s;411.5s;422.5s;433.5s;444.5s;455.5s;466.5s;477.5s;488.5s;499.5s;510.5s;521.5s;532.5s;543.5s;554.5s;565.5s;576.5s;587.5s;598.5s" fill="freeze"/>
 		Добавили значение 2
 	</text>
 
-	<text x="320" y="350" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" opacity="0">
+	<text x="320" y="355" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#1f2328" opacity="0">
 		<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" begin="7s;18s;29s;40s;51s;62s;73s;84s;95s;106s;117s;128s;139s;150s;161s;172s;183s;194s;205s;216s;227s;238s;249s;260s;271s;282s;293s;304s;315s;326s;337s;348s;359s;370s;381s;392s;403s;414s;425s;436s;447s;458s;469s;480s;491s;502s;513s;524s;535s;546s;557s;568s;579s;590s;601s" fill="freeze"/>
 		Добавили значение 3
 	</text>
