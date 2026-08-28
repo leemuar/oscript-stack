@@ -98,3 +98,7 @@ opm install asserts
 opm install 1testrunner
 1testrunner -runall tests
 ```
+
+## Лицензия
+
+[MIT](LICENSE)
