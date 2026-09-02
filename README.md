@@ -1,4 +1,4 @@
-# oscript-stack
+# onescript-collection-stack
 
 Реализация структуры данных **Стек** (LIFO — Last In, First Out) для [OneScript](https://oscript.io/).
 
